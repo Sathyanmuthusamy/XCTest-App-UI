@@ -1,0 +1,17 @@
+{
+    "results": [
+        {
+            "name": "ICICI Bank",
+            "address": "Old Mahabalipuram Road, Sakthi Nagar, Balamurugan Garden, Okkiam, Thoraipakkam, Chennai, Tamil Nadu 600097"
+        },
+        {
+            "name": "Chettinad Hospital",
+            "address": "Rajiv Gandhi Salai, Old Mahabalipuram Road, Kelambakkam, Kanchipuram District, Elcot Sez, Sholinganallur, Chennai, Tamil Nadu 600119"
+        },
+        {
+            "name": "Hotel Saravana Bhavan",
+            "address": "111/141, OMR Service Rd, Kandancavadi, Perungudi, Chennai, Tamil Nadu 600096"
+        }
+    ],
+    "status": "OK"
+}
