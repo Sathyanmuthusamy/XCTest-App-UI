@@ -22,7 +22,7 @@ class LoginViewModelTest: XCTestCase {
     }
     
     func testSuccessLoginValidation() {
-        let check = loginModel.checkLoginValidation(username: "Username", password: "Password")
+        let check = loginModel.checkLoginValidation(username: "Usernam", password: "Password")
         XCTAssert(true)
         XCTAssertTrue(check, "Input fields are not empty.")
     }
