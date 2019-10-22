@@ -31,20 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F3F14D9235EEA5800400EC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F8B664022C26268005B11D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F8B665B22C2626A005B11D8;
-			remoteInfo = "XCTest AppTests";
-		};
-		1F3F14DB235EEA5800400EC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F8B664022C26268005B11D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F8B666622C2626A005B11D8;
-			remoteInfo = "XCTest AppUITests";
-		};
 		1F8B665D22C2626A005B11D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F8B664022C26268005B11D8 /* Project object */;
@@ -243,8 +229,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				1F3F14DA235EEA5800400EC1 /* PBXTargetDependency */,
-				1F3F14DC235EEA5800400EC1 /* PBXTargetDependency */,
 			);
 			name = "XCTest App";
 			productName = "XCTest App";
@@ -400,16 +384,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F3F14DA235EEA5800400EC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F8B665B22C2626A005B11D8 /* XCTest AppTests */;
-			targetProxy = 1F3F14D9235EEA5800400EC1 /* PBXContainerItemProxy */;
-		};
-		1F3F14DC235EEA5800400EC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F8B666622C2626A005B11D8 /* XCTest AppUITests */;
-			targetProxy = 1F3F14DB235EEA5800400EC1 /* PBXContainerItemProxy */;
-		};
 		1F8B665E22C2626A005B11D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F8B664722C26268005B11D8 /* XCTest App */;
