@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F8B664722C26268005B11D8"
-               BuildableName = "XCTest App.app"
-               BlueprintName = "XCTest App"
-               ReferencedContainer = "container:XCTest App.xcodeproj">
+               BuildableName = "XCTest_App.app"
+               BlueprintName = "XCTest_App"
+               ReferencedContainer = "container:XCTest_App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F8B665B22C2626A005B11D8"
-               BuildableName = "XCTest AppTests.xctest"
-               BlueprintName = "XCTest AppTests"
-               ReferencedContainer = "container:XCTest App.xcodeproj">
+               BuildableName = "XCTest_AppTests.xctest"
+               BlueprintName = "XCTest_AppTests"
+               ReferencedContainer = "container:XCTest_App.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -44,9 +44,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F8B666622C2626A005B11D8"
-               BuildableName = "XCTest AppUITests.xctest"
-               BlueprintName = "XCTest AppUITests"
-               ReferencedContainer = "container:XCTest App.xcodeproj">
+               BuildableName = "XCTest_AppUITests.xctest"
+               BlueprintName = "XCTest_AppUITests"
+               ReferencedContainer = "container:XCTest_App.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F8B664722C26268005B11D8"
-            BuildableName = "XCTest App.app"
-            BlueprintName = "XCTest App"
-            ReferencedContainer = "container:XCTest App.xcodeproj">
+            BuildableName = "XCTest_App.app"
+            BlueprintName = "XCTest_App"
+            ReferencedContainer = "container:XCTest_App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F8B664722C26268005B11D8"
-            BuildableName = "XCTest App.app"
-            BlueprintName = "XCTest App"
-            ReferencedContainer = "container:XCTest App.xcodeproj">
+            BuildableName = "XCTest_App.app"
+            BlueprintName = "XCTest_App"
+            ReferencedContainer = "container:XCTest_App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F8B664722C26268005B11D8"
-            BuildableName = "XCTest App.app"
-            BlueprintName = "XCTest App"
-            ReferencedContainer = "container:XCTest App.xcodeproj">
+            BuildableName = "XCTest_App.app"
+            BlueprintName = "XCTest_App"
+            ReferencedContainer = "container:XCTest_App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
