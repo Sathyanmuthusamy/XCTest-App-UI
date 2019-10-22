@@ -26,29 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F8B665B22C2626A005B11D8"
-               BuildableName = "XCTest_AppTests.xctest"
-               BlueprintName = "XCTest_AppTests"
-               ReferencedContainer = "container:XCTest_App.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F8B666622C2626A005B11D8"
-               BuildableName = "XCTest_AppUITests.xctest"
-               BlueprintName = "XCTest_AppUITests"
-               ReferencedContainer = "container:XCTest_App.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
