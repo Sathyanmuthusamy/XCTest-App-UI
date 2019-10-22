@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		1F3F14EC235EF69E00400EC1 /* XCTest_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F14EB235EF69E00400EC1 /* XCTest_AppTests.swift */; };
 		1F3F14FA235EF6BC00400EC1 /* XCTest_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F14F9235EF6BC00400EC1 /* XCTest_AppUITests.swift */; };
+		1F3F1501235EF7E200400EC1 /* PlaceViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B668522C26661005B11D8 /* PlaceViewModelTest.swift */; };
+		1F3F1502235EF7E200400EC1 /* PlaceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B668622C26661005B11D8 /* PlaceTest.swift */; };
+		1F3F1503235EF7E200400EC1 /* VendingViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B667F22C26661005B11D8 /* VendingViewModelTest.swift */; };
+		1F3F1504235EF7E200400EC1 /* LoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B669D22C38B04005B11D8 /* LoginViewModelTest.swift */; };
+		1F3F1505235EF7E600400EC1 /* PlaceViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793764D72342279000E35EEB /* PlaceViewUITest.swift */; };
+		1F3F1506235EF7E600400EC1 /* VendingViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793764DA234227B500E35EEB /* VendingViewUITest.swift */; };
+		1F3F1507235EF7E600400EC1 /* LoginViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793764D52342275F00E35EEB /* LoginViewUITest.swift */; };
 		1F8B664C22C26268005B11D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B664B22C26268005B11D8 /* AppDelegate.swift */; };
 		1F8B665322C26269005B11D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B665222C26269005B11D8 /* Assets.xcassets */; };
 		1F8B665622C26269005B11D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B665422C26269005B11D8 /* LaunchScreen.storyboard */; };
@@ -54,8 +61,6 @@
 		1F8B665222C26269005B11D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F8B665522C26269005B11D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F8B665722C26269005B11D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F8B666222C2626A005B11D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F8B666D22C2626A005B11D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F8B667922C26284005B11D8 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		1F8B667A22C26284005B11D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1F8B667B22C26284005B11D8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +109,10 @@
 		1F3F14EA235EF69E00400EC1 /* XCTest_AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				1F8B668622C26661005B11D8 /* PlaceTest.swift */,
+				1F8B669D22C38B04005B11D8 /* LoginViewModelTest.swift */,
+				1F8B668522C26661005B11D8 /* PlaceViewModelTest.swift */,
+				1F8B667F22C26661005B11D8 /* VendingViewModelTest.swift */,
 				1F3F14EB235EF69E00400EC1 /* XCTest_AppTests.swift */,
 				1F3F14ED235EF69E00400EC1 /* Info.plist */,
 			);
@@ -113,6 +122,9 @@
 		1F3F14F8235EF6BC00400EC1 /* XCTest_AppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				793764D52342275F00E35EEB /* LoginViewUITest.swift */,
+				793764D72342279000E35EEB /* PlaceViewUITest.swift */,
+				793764DA234227B500E35EEB /* VendingViewUITest.swift */,
 				1F3F14F9235EF6BC00400EC1 /* XCTest_AppUITests.swift */,
 				1F3F14FB235EF6BC00400EC1 /* Info.plist */,
 			);
@@ -123,8 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				1F8B664A22C26268005B11D8 /* XCTest App */,
-				1F8B665F22C2626A005B11D8 /* XCTest AppTests */,
-				1F8B666A22C2626A005B11D8 /* XCTest AppUITests */,
 				1F3F14EA235EF69E00400EC1 /* XCTest_AppTests */,
 				1F3F14F8235EF6BC00400EC1 /* XCTest_AppUITests */,
 				1F8B664922C26268005B11D8 /* Products */,
@@ -154,29 +164,6 @@
 				1F8B669722C266A0005B11D8 /* Resources */,
 			);
 			path = "XCTest App";
-			sourceTree = "<group>";
-		};
-		1F8B665F22C2626A005B11D8 /* XCTest AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				1F8B668622C26661005B11D8 /* PlaceTest.swift */,
-				1F8B669D22C38B04005B11D8 /* LoginViewModelTest.swift */,
-				1F8B668522C26661005B11D8 /* PlaceViewModelTest.swift */,
-				1F8B667F22C26661005B11D8 /* VendingViewModelTest.swift */,
-				1F8B666222C2626A005B11D8 /* Info.plist */,
-			);
-			path = "XCTest AppTests";
-			sourceTree = "<group>";
-		};
-		1F8B666A22C2626A005B11D8 /* XCTest AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				793764D52342275F00E35EEB /* LoginViewUITest.swift */,
-				793764D72342279000E35EEB /* PlaceViewUITest.swift */,
-				793764DA234227B500E35EEB /* VendingViewUITest.swift */,
-				1F8B666D22C2626A005B11D8 /* Info.plist */,
-			);
-			path = "XCTest AppUITests";
 			sourceTree = "<group>";
 		};
 		1F8B669322C26666005B11D8 /* ViewModel */ = {
@@ -366,6 +353,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3F1503235EF7E200400EC1 /* VendingViewModelTest.swift in Sources */,
+				1F3F1502235EF7E200400EC1 /* PlaceTest.swift in Sources */,
+				1F3F1501235EF7E200400EC1 /* PlaceViewModelTest.swift in Sources */,
+				1F3F1504235EF7E200400EC1 /* LoginViewModelTest.swift in Sources */,
 				1F3F14EC235EF69E00400EC1 /* XCTest_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,7 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3F1505235EF7E600400EC1 /* PlaceViewUITest.swift in Sources */,
 				1F3F14FA235EF6BC00400EC1 /* XCTest_AppUITests.swift in Sources */,
+				1F3F1507235EF7E600400EC1 /* LoginViewUITest.swift in Sources */,
+				1F3F1506235EF7E600400EC1 /* VendingViewUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
