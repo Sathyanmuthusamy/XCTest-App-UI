@@ -29,6 +29,26 @@
       codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F3F14E8235EF69E00400EC1"
+               BuildableName = "XCTest_AppTests.xctest"
+               BlueprintName = "XCTest_AppTests"
+               ReferencedContainer = "container:XCTest_App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F3F14F6235EF6BC00400EC1"
+               BuildableName = "XCTest_AppUITests.xctest"
+               BlueprintName = "XCTest_AppUITests"
+               ReferencedContainer = "container:XCTest_App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
